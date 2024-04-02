@@ -1,0 +1,33 @@
+<!-- res/drawable/welcome_button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Default state -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <!-- Gradient for the button background -->
+            <gradient
+                android:startColor="#03A9F4"
+                android:endColor= "#673AB7"
+                android:angle="45"/>
+
+
+            <!-- Rounded corners for the button -->
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- Gradient for the button background when pressed -->
+            <gradient
+                android:startColor="#00BCD4"
+                android:endColor="#12568C"
+                android:angle="45"/>
+
+            <!-- Rounded corners for the button -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background color for the "off" button (e.g., red) -->
+    <solid android:color="#FF0000" />
+
+    <!-- Rounded corners for aesthetics (optional) -->
+    <corners android:radius="8dp" />
+
+</shape>
